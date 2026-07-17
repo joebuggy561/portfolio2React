@@ -34,9 +34,9 @@ const Portfolio = () => {
                   initial="hidden"
                   whileInView="show"
                  className='text-3xl md:text-4xl font-bold text-neutral-900'>
-                Explore my portfolio to see my work in Python, React, JavaScript, and more!
+                Explore our portfolio and discover projects showcasing our expertise in Python, React, JavaScript, and more. ⭐
                 </motion.h2>
-                <a href='#' className='text-blue-500 font-semibold flex items-center gap-3 hover:gap-4'>
+                <a href='https://guileless-madeleine-f797ff.netlify.app/' className='text-blue-500 font-semibold flex items-center gap-3 hover:gap-4'>
                     Explore Portfolio 
                     <MdOutlineArrowForward className='w-5 h-5'/>
                 </a>

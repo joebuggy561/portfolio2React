@@ -6,13 +6,13 @@ const PurposeSection = () => {
 const features = [
     {
         icon: '🟣',
-        title: 'Virtual Assistant',
-        description: "Organized professional managing tasks, emails, leads, and business operations efficiently. ✅"
+        title: 'Virtual Assistance',
+        description: "Efficient virtual assistant managing tasks, emails, leads, and daily business operations. ✅"
     },
     {
         icon: '🔴',
-        title: 'Frontend Developer',
-        description: "Creative coder crafting responsive, user-friendly, and interactive web experiences. 🚀"
+        title: 'Frontend Development',
+        description: "Creative developers crafting responsive, user-friendly, and interactive web experiences.🚀"
     }
 ]
 
@@ -29,9 +29,9 @@ const features = [
                 {/* heading text */}
 
                 <div className='mx-auto'>
-                    <p className='text-sm text-purple-600 font-medium mb-2'>My Purpose</p>
+                    <p className='text-sm text-purple-600 font-medium mb-2'>Our Purpose</p>
                     <h2 className-="text-3xl md:w-4/5 w-full md:text-4xl font-bold text-gray-900 py-2">
-                    I believe in leveraging technology, automation, and analytics to help businesses scale efficiently.</h2>
+                    ⭐ We believe in leveraging technology, automation, and analytics to help businesses scale efficiently.</h2>
                 </div>
 
                 {/* bullet points */}

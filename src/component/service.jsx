@@ -40,12 +40,12 @@ const Service = () => {
               variants={fadeIn("right",0.2)}
               initial="hidden"
               whileInView="show"
-               className='text-3xl md:text-4xl font-bold mb-6 md:x-4/5'>My Services</motion.h2>
+               className='text-3xl md:text-4xl font-bold mb-6 md:x-4/5'>Our Services</motion.h2>
               <motion.p 
               variants={fadeIn("right",0.3)}
               initial="hidden"
               whileInView="show"
-              className='text-gray-600 text-lg mb-4 md:w-4/5'>I provide virtual assistance, web development, and data analysis.🛠️</motion.p>
+              className='text-gray-600 text-lg mb-4 md:w-4/5'>We provide virtual assistance, web development, and data analysis.🛠️</motion.p>
               <div className='space-y-3'>
                 <motion.div 
                 variants={fadeIn("right",0.4)}

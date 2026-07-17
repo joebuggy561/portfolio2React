@@ -44,12 +44,34 @@ const Newslettersection = () => {
                <div className='absolute top-0 right-0 w-1/2 h-1/2 h-full bg-gray-700 clip-path-slant hidden md:block'>
 
                </div>
+
+               <div className="">
+                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-4">
+                    About the Founder
+                </h2>
+                <p className="text-blue-100 text-sm sm:text-base leading-8">
+                    Kartiqo Tech was founded by <strong>Joseph Nwani</strong>, a passionate
+                    Frontend Developer, Python Developer, and Data Analyst dedicated to
+                    helping businesses grow through modern technology. With expertise in web
+                    development, automation, data-driven solutions, and virtual assistance,
+                    the vision behind Kartiqo Tech is to deliver innovative, reliable, and
+                    user-focused digital experiences that help businesses thrive.
+                </p>
+               </div>
+
+               
+               
+               
                <div className='relative flex flex-col lg:flex-row items-center justify-between gap-8 lg-gap-12'>
+
+                
+                
                     {/* left content */}
                     <div className='text-white max-w-lg text-center md:text-left'>
-                            <h2 className='text-2xl sm:text-3xl lg:text-4xl font-medium mb-4'>Subscribe to newsletter</h2>
-                            <p className='text-blue-100 text-sm sm:text-base'>Get the latest updates and offers from me and my team</p>
+                            <h2 className='text-1xl sm:text-3xl lg:text-4xl font-medium mb-4'>Subscribe to newsletter</h2>
+                            <p className='text-blue-100 text-sm sm:text-base'>Get the latest updates and offers from our team</p>
                     </div>
+
 
                     {/* right content */}
                     <form onSubmit={handleSubmit} className='flex flex-col sm:flex-row gap-4 sm:gap-0'>
@@ -67,6 +89,8 @@ const Newslettersection = () => {
                </div>
             </div>
         </motion.div>
+        {/* About the Founder */}
+
         {
             <style>
                 {

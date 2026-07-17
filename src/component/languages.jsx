@@ -16,7 +16,7 @@ const Languages = () => {
     <div className="w-full overflow-hidden mx-auto container gap-8 py-20 flex sm:flex-row flex-col sm:items-center items-start">
   {/* Left Side Text */}
   <div className="w-[300px] px-5 shrink-0 text-gray-600 border-l-4 border-black bg-white py-2 sm:text-base z-10 text-xl font-semibold text-left">
-    Tools I love <br /> working with;
+    Tools we <br /> work with;
   </div>
 
   {/* Scrolling Logos */}

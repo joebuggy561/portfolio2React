@@ -2,6 +2,9 @@ import React from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import {BsChevronLeft, BsChevronRight} from 'react-icons/bs'
 import { Navigation } from 'swiper/modules';
+import  nawras from '../assets/nawras2.png'
+import asiwaju from '../assets/asiwajuezra.png'
+import iscander from '../assets/iscander.png'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -10,73 +13,32 @@ const Testimonials = () => {
     const testimonials = [
         {
             id: 1,
-            name: 'Ashley',
-            title: 'CEO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+            name: 'Asiwaju Ezra',
+            title: 'AMC COORDINATOR -- City Crier Nigeria',
+            image: asiwaju,
+            text: 'Fast, efficient web development for high-performance, user-friendly websites.'
         },
         {
             id: 2,
-            name: 'John',
-            title: 'CTO',  
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+            name: 'Nawras Khaled',
+            title: 'Marketing Manager -- Pride Group Dubai',  
+            image: nawras,
+            text: 'Top marketing analyst delivering data-driven growth strategies efficiently.'
         },
         {
             id: 3,
-            name: 'Jane',
-            title: 'CFO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+            name: 'Iscander Alli',
+            title: 'Static Page SMEs',
+            image: iscander,
+            text: 'Basic Static Page for Small business and Publicity to growth customer base'
         },
-        {
-            id: 4,
-            name: 'Bob',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        }, 
-        {
-            id: 5,
-            name: 'Alice',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        },
-        {
-            id: 6, 
-            name: 'David',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        },
-        {
-            id: 7,
-            name: 'Emily',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        },
-        {
-            id: 8,
-            name: 'Michael',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        },
-        {
-            id: 9,
-            name: 'Jessica',
-            title: 'COO',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
-        }
+
     ]
   return (
     <section className='py-16 px-4 max-w-7xl mx-auto' id='testimonials'>
         <div className='text-center mb-12'>
-            <h2 className='text-3xl font-bold md:text-4xl mb-4'>What my happy client says</h2>
-            <p className='text-gray-600'>Things that make me the best to hire for a job!</p>
+            <h2 className='text-3xl font-bold md:text-4xl mb-4'>What our happy client have to say!</h2>
+            <p className='text-gray-600'>Why we are the best for your tech app!</p>
 
         </div>
 
@@ -129,6 +91,7 @@ const Testimonials = () => {
                                         }
                                     </div>
                                     <h3 className='text-xl font-sembold mb-3'>{testimonial.name}</h3>
+                                    <h4 className='text-l font-sembold mb-3'>{testimonial.title}</h4>
                                     <p className='text-gray-600'>{testimonial.text}</p>
                                 </div>
                             </SwiperSlide>

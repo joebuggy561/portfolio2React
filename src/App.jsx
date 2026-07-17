@@ -1,7 +1,7 @@
 
 import './App.css'
 import Navbar from './component/Navbar'
-import Hero from './component/Hero'
+import Hero from './component/hero'
 import Languages from './component/languages'
 import PurposeSection from './component/PurposeSection'
 import Features from './component/features'

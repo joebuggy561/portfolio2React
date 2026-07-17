@@ -2,8 +2,10 @@ import React from "react";
 import { FaGithub , FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 
+
 const Footersection = () => {
 
+ 
     const footerLinks = {
         company:[
             {name: 'About', link: '#about'},
@@ -23,13 +25,13 @@ const Footersection = () => {
         ],
 
         contact:[
-            {name: 'Phone', link: '#privacy'},
+            {name: '+1 (303) 435-3065', link: '#'},
             {name: '1942 Broadway St, Suite 314C, Boulder CO 80302, USA', link: '#contact'},
             
         ],
 
         support:[
-            {name: 'WhatsApp', link: '#contact'},
+            {name: 'WhatsAPP', link: 'https://wa.me/2349034679466'},
             {name: 'Support 24', link: '#privacy'},
             {name: 'Chat', link: '#contact'},
            
@@ -49,12 +51,29 @@ const Footersection = () => {
           <div className="lg:col-span-4">
             <div className="flex gap-2 items-center mb-6">
               <div className="flex items-center gap-1 cursor-pointer">
-                <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity">
-                  J
-                </div>
-                <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
-                  N
-                </div>
+                       <div className="flex items-center cursor-pointer">
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity">
+            k
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
+            A
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            R
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
+            T
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            I
+          </div>
+           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
+            Q
+          </div>
+            <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            O
+          </div>
+        </div>
               </div>
               <span className="text-xl font-medium ml-1">
                 Creativity Matters
@@ -67,7 +86,7 @@ const Footersection = () => {
 
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61578608228265"
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 
             hover:bg-blue-600 hover:text-white transition-all duration-200"
               >
@@ -75,7 +94,7 @@ const Footersection = () => {
               </a>
 
               <a
-                href="#"
+                href="https://github.com/joebuggy561"
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 
             hover:bg-black hover:text-white transition-all duration-200"
               >
@@ -83,7 +102,7 @@ const Footersection = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/joseph-n-543a30245"
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 
             hover:bg-blue-600 hover:text-white transition-all duration-200"
               >
@@ -103,7 +122,7 @@ const Footersection = () => {
                             <ul className="space-y-3">
                                 {links.map((link, index) => (
                                         <li key={index} className="sm:text-sm">
-                                            <a href="#" className="text-gray-600 flex hover:text-gray-800">{link.name}</a>
+                                            <a href={link.link} className="text-gray-600 flex hover:text-gray-800">{link.name}</a>
                                         </li>
                                     ))}
                             </ul>
@@ -112,13 +131,19 @@ const Footersection = () => {
                 }
             </div>
           </div>
+
         </div>
         <div className="border-t border-gray-200 mt-12 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                 <p className="text-gray-600 text-sm">Copyright © {new Date().getFullYear()} kartiqo.com</p>
-                <p className="text-600 text-sm">Created by Joseph Nwani</p>
+                <p className="text-600 text-sm">Founder: Joseph Nwani</p>
             </div>
         </div>
+
+     
+        
+
+        
       </div>
     </footer>
   );

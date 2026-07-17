@@ -6,18 +6,18 @@ const Features = () => {
     const features = [
         {
             icon:'🔎',
-            title:'Find out what you need',
-            description:'I present you with a proposal and discuss all necessary details'
+            title:'Our Team discusses about your needs',
+            description:'We present you with a proposal and discuss all necessary details'
         },
         {
             icon:'📋',
-            title:'We work out on the details',
-            description:'I use various communication protocols to ensure smooth and secure interactions across different platforms.'
+            title:'Our Team works out the details',
+            description:'We use various communication protocols to ensure smooth and secure interactions across different platforms.'
         },
         {
             icon:'🚀',
-            title:'I get the job done',
-            description:'I the job done As soon as possible and efficiently.'
+            title:'We get the job done',
+            description:'We get the job done As soon as possible and efficiently.'
         }
     ]
   return (
@@ -25,8 +25,8 @@ const Features = () => {
         {/* heading text */}
 
             <div className='text-center mb-12'>
-                <h2 className='text-3xl font-bold mb-4'>My Key Features & Services</h2>
-                <p className='text-gray-600'> I specialize in delivering efficient, tech-driven solutions to help businesses 
+                <h2 className='text-3xl font-bold mb-4'>Our Key Features & Services</h2>
+                <p className='text-gray-600'> We specialize in delivering efficient, tech-driven solutions to help businesses 
                 grow, streamline operations, and enhance their digital presence.</p>
             </div>
 
@@ -52,12 +52,12 @@ const Features = () => {
 
         {/* button */}
         <div className='text-center mt-12'>
-        <button
+        {/* <button
             className="bg-black text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-amber-400 transition-colors"
             onClick={() => window.open("https://github.com/joebuggy561/portfolio/blob/main/Joseph%20Nwani%20(3).pdf", "_blank")}
             >
             Download CV
-            </button>
+            </button> */}
             {/* <button className='bg-black text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-amber-400 transition-colors relative' onclick="window.location.href='https://github.com/joebuggy561/portfolio/blob/main/Joseph%20Nwani%20(3).pdf'">Download CV</button> */}
             <div className='absolute -z-10 w-full h-full rounded-full blur-xl top-0 left-0'></div>
         </div>

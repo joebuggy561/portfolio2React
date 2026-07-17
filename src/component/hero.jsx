@@ -63,15 +63,15 @@ const Hero = () => {
           variants={textVariant(0.3)}
           initial="hidden"
           whileInView="show"
-          className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
+          className="text-4xl md:text-5xl lg:text-4xl font-bold leading-tight"
         >
-          Hello, I'm Joseph Nwani
+          Kartiqo Tech delivers expert services in Data Analysis 
           <span className="text-black relative inline-block">
             {" "}
-            Data Analyst / Frontend Dev / Virtual Assistant
+            Frontend Development, Virtual Assistance
           </span>
           <span className="absolute bottom-0 left-0 w-full h-1.5 bg-blue-200/60"></span>{" "}
-          Python Dev
+          and Python Development.
           <motion.span
             className="inline-block ml-2"
             animate={{ rotate: [0, 20, 0, -20, 0] }}

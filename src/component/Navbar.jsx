@@ -28,10 +28,25 @@ const Navbar = () => {
         {/* logo */}
         <div className="flex items-center gap-1 cursor-pointer">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity">
-            J
+            k
           </div>
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
-            N
+            A
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            R
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
+            T
+          </div>
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            I
+          </div>
+           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-100 hover:opacity-75 transition-opacity -ml-2">
+            Q
+          </div>
+            <div className="w-6 h-6 flex items-center justify-center rounded-full bg-black text-white text-lg font-bold opacity-75 hover:opacity-100 transition-opacity -ml-2">
+            O
           </div>
         </div>
 
@@ -97,7 +112,7 @@ const Navbar = () => {
               </a>
             ))}
             <button className="w-full md:block bg-gray-900 text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-800 transistion-all text-sm font-medium transistion-all hover:shadow-lg">
-              <a href="#newsletter">Get In Touch</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_n0ZKu-OUlJkmCk04Tf-0ArgbFAmkyEK0lq-WoxFRBFQ4sA/viewform?usp=header">Get In Touch</a>
             </button>
           </div>
         </div>
