@@ -1,40 +1,42 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import passport from "../assets/passport-photograph.jpg";
 import { fadeIn, textVariant } from "../ultils/motion";
-import emailjs from 'emailjs-com'
-
- 
-
-
-
+import emailjs from "emailjs-com";
+import coloradoSmallBusBadge from "../assets/colorado_smallbusiness_badge.png";
 
 const Hero = () => {
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = async (e) => {
-      e.preventDefault ();
+    e.preventDefault();
 
-      if(!email){
-          setMessage('Please enter a valid email!');
-          return;
-      }
+    if (!email) {
+      setMessage("Please enter a valid email!");
+      return;
+    }
 
-      const templateParams = {
-          user_email: email,
-        };
-    
-        emailjs.send("service_4grklhy", "template_ufvkrai", templateParams, "fQumWAVplS6YHb3Dv")
-          .then(() => {
-            setMessage("Email sent successfully!");
-            setEmail("");
-          })
-          .catch(() => {
-            setMessage("Failed to send email. Try again.");
-          });
-      };
-  
+    const templateParams = {
+      user_email: email,
+    };
+
+    emailjs
+      .send(
+        "service_4grklhy",
+        "template_ufvkrai",
+        templateParams,
+        "fQumWAVplS6YHb3Dv",
+      )
+      .then(() => {
+        setMessage("Email sent successfully!");
+        setEmail("");
+      })
+      .catch(() => {
+        setMessage("Failed to send email. Try again.");
+      });
+  };
+
   return (
     <section
       id="home"
@@ -48,12 +50,27 @@ const Hero = () => {
           initial="hidden"
           whileInView="show"
         >
-          <div className="flex items-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
+          <div className="flex items-center gap-10 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
             <span className="text-black group-hover:text-amber-400 group-hover:scale-110 transition-transform">
               ★
             </span>
             <span className="text-sm font-medium">
               Grow your business today!
+            </span>
+            <span className="text-black group-hover:text-amber-400 group-hover:scale-110 transition-transform">
+            <a
+              className="text-black"
+              href="https://www.coloradosmallbusiness.org/"
+              aria-label="Verified on ColoradoSmallBusiness.org"
+              title="Verified on ColoradoSmallBusiness.org"
+            >
+              <img
+                src={coloradoSmallBusBadge}
+                alt="Trusted Local Business — Verified by ColoradoSmallBusiness.org"
+                width="200"
+                height="50"
+              />
+            </a>
             </span>
           </div>
         </motion.div>
@@ -65,7 +82,7 @@ const Hero = () => {
           whileInView="show"
           className="text-4xl md:text-5xl lg:text-4xl font-bold leading-tight"
         >
-          Kartiqo Tech delivers expert services in Data Analysis 
+          Kartiqo Tech delivers expert services in Data Analysis
           <span className="text-black relative inline-block">
             {" "}
             Frontend Development, Virtual Assistance
